@@ -189,7 +189,7 @@ public class MemcachedClient {
 	public static final int MARKER_INTEGER          = 4;
 	public static final int MARKER_LONG             = 16384;
 	public static final int MARKER_CHARACTER        = 16;
-	public static final int MARKER_STRING           = 32;
+	public static final int MARKER_STRING           = 0;
 	public static final int MARKER_STRINGBUFFER     = 64;
 	public static final int MARKER_FLOAT            = 128;
 	public static final int MARKER_SHORT            = 256;
@@ -197,7 +197,7 @@ public class MemcachedClient {
 	public static final int MARKER_DATE             = 1024;
 	public static final int MARKER_STRINGBUILDER    = 2048;
 	public static final int MARKER_BYTEARR          = 4096;
-	public static final int F_COMPRESSED            = 2;
+	public static final int F_COMPRESSED            = 7;
 	public static final int F_SERIALIZED            = 8;
 	
 	// flags
